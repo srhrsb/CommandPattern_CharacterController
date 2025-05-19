@@ -1,5 +1,5 @@
 public class BackCommand implements Command {
-    public CharacterController character;
+    private CharacterController character;
 
     public BackCommand( CharacterController character){
         this.character = character;
