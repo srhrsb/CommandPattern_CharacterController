@@ -20,6 +20,11 @@ public class Main {
         invoker.invoke(forwardCmd);
         invoker.replay();
 
+        System.out.println("Test Replay from to___________________\n");
+        invoker.replay(1,3);
+
+        invoker.replay(1,2);
+
     }
 
 }
